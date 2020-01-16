@@ -61,7 +61,7 @@ def display_page(pathname):
     # You could also return a 404 "URL not found" page here
 
 
-hm_data = pd.read_csv("C:/Users/Aditya.Taori/ERM Python Codes/Road Safety/Shell Demo/Datasets/Heatmap_Data.csv")
+hm_data = pd.read_csv("Heatmap_Data.csv")
 unique_categories = hm_data["Category Alarms"].unique()
     
 
